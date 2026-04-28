@@ -44,7 +44,7 @@ export default function LiveTerminal() {
             </div>
 
             {/* Output area */}
-            <div style={{ padding: "20px 24px", minHeight: 260, background: "rgba(0,0,0,0.4)" }}>
+            <div style={{ padding: "20px 24px", height: 300, overflowY: "auto", background: "rgba(0,0,0,0.4)" }}>
               <div style={{ marginBottom: 4, fontSize: 12 }}>
                 <span style={{ color: C.lime }}>rsr@ai</span>
                 <span style={{ color: C.indigo }}>:~$ </span>

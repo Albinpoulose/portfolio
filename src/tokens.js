@@ -15,7 +15,7 @@ export const C = {
 
 // ─── Framer Motion Variants ───────────────────────────────────
 export const fadeUp = {
-  hidden:  { opacity: 0, y: 32 },
+  hidden:  { opacity: 0, y: 20, willChange: "opacity, transform" },
   visible: {
     opacity: 1,
     y: 0,

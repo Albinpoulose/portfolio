@@ -62,7 +62,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.2 }}
-          style={{ fontSize: "clamp(1rem, 2.5vw, 1.25rem)", color: C.muted, maxWidth: 680, margin: "0 auto 40px", lineHeight: 1.8 }}
+          style={{ fontSize: "clamp(1rem, 2.5vw, 1.25rem)", color: C.muted, maxWidth: 680, margin: "0 auto 40px", lineHeight: 1.8, minHeight: "4em" }} 
         >
           7 Years of Full-Stack Leadership at{" "}
           <span style={{ color: C.text, fontWeight: 500 }}>Comviva</span>{" → "}
