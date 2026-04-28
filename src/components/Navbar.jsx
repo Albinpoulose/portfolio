@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import { Brain } from "lucide-react";
 import { C } from "../tokens.js";
 
 const NAV_LINKS = ["About", "Skills", "Projects", "Timeline", "Contact"];
