@@ -4,9 +4,9 @@ import { C, fadeUp } from "../tokens.js";
 import RevealSection from "../components/RevealSection.jsx";
 
 const CONTACT_LINKS = [
-  { href: "mailto:hello@rsr.dev", icon: <Mail size={18} />, label: "hello@rsr.dev", solid: true },
-  { href: "https://linkedin.com",  icon: <Linkedin size={18} />, label: "LinkedIn" },
-  { href: "https://github.com",    icon: <Github size={18} />,   label: "GitHub"   },
+  { href: "mailto:paulosealbin@gmail.com", icon: <Mail size={18} />, label: "[EMAIL_ADDRESS]", solid: true },
+  { href: "https://www.linkedin.com/in/albin-poulose-136219146", icon: <Linkedin size={18} />, label: "LinkedIn" },
+  { href: "https://github.com/Albinpoulose", icon: <Github size={18} />, label: "GitHub" },
 ];
 
 export default function Contact() {
@@ -35,7 +35,7 @@ export default function Contact() {
 
           {/* Availability note */}
           <motion.p variants={fadeUp} style={{ fontFamily: "JetBrains Mono, monospace", fontSize: 12, color: C.dim }}>
-            Based in India · Open to remote worldwide · Available from Q3 2025
+            Based in India · Open to remote worldwide · Available from Q3 2026
           </motion.p>
         </div>
       </RevealSection>
