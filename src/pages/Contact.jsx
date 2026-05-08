@@ -4,7 +4,7 @@ import { C, fadeUp } from "../tokens.js";
 import RevealSection from "../components/RevealSection.jsx";
 
 const CONTACT_LINKS = [
-  { href: "mailto:paulosealbin@gmail.com", icon: <Mail size={18} />, label: "[EMAIL_ADDRESS]", solid: true },
+  { href: "mailto:paulosealbin@gmail.com", icon: <Mail size={18} />, label: "Email", solid: true },
   { href: "https://www.linkedin.com/in/albin-poulose-136219146", icon: <Linkedin size={18} />, label: "LinkedIn" },
   { href: "https://github.com/Albinpoulose", icon: <Github size={18} />, label: "GitHub" },
 ];
@@ -47,6 +47,8 @@ function ContactLink({ href, icon, label, solid }) {
   return (
     <a
       href={href}
+      target="_blank"
+      rel="noopener noreferrer"
       style={{
         display: "inline-flex",
         alignItems: "center",
